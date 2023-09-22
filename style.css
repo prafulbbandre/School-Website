@@ -17,6 +17,7 @@
 
 .colorful-heading {
     color: #FB6F1A;
+    display: inline;
 }
 
 .col {
@@ -37,6 +38,7 @@
 
 .ch2 {
     color: #D91AAE;
+    display: inline;
 }
 
 /* Basic styling for the news ticker container */
@@ -98,6 +100,7 @@ span {
     text-align: center;
     width: 50%;
     align-items: left;
+    margin: 10px;
 }
 
 .child-2 {
@@ -140,7 +143,7 @@ nav h1 {
     margin: 50px 20px;
     display: flex;
     flex-direction: column;
-    height: 40%;
+    height: 40vh;
     border: 2px solid black;
     border-radius: 5px;
 }
@@ -288,7 +291,12 @@ p {
 
 .child-2 {
     padding-top: 20px;
-    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+#small-img{
+    width: 100%;
 }
 
 img {
@@ -313,14 +321,18 @@ h3 {
 .ops-1 {
     display: flex;
     flex-direction: row;
-    padding-top: 100px;
+    padding: 50px;
+    margin-top: 20px;
     justify-content: space-evenly;
+    border: 1px solid rgba(0, 0, 0, 0.247);
+    border-radius: 10px;
 }
 
 .child-1 img {
     background-size: cover;
     max-height: 70vh;
     width: 50%;
+    vertical-align: middle;
 }
 
 .offering-col:hover {
@@ -430,8 +442,8 @@ h3 {
         flex-direction: column;
     }
 
-    nav h1 {
-        font-size: 20px;
+    h1 {
+        font-size: 15px;
     }
 
     .card {
@@ -467,7 +479,7 @@ h3 {
     .ops-1 {
         display: flex;
         flex-direction: column;
-        padding-top: 100px;
+        padding-top: 50px;
         justify-content: space-evenly;
     }
 
@@ -484,6 +496,11 @@ h3 {
         display: flex;
         flex-direction: column;
       }
+
+    .ops-row {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 footer {
